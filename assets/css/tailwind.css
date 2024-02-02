@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Lora";
+  src: url("~/fonts/Lora-VariableFont_wght.woff2") format("woff2"),
+    url("~/fonts/Lora-VariableFont_wght.ttf");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/Lora-Italic-VariableFont_wght.woff2") format("woff2"),
+    url("/fonts/Lora-Italic-VariableFont_wght.ttf");
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-Lora;
+  }
+}
