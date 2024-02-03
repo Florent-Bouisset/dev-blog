@@ -10,12 +10,12 @@
     <p>
       Javascript and Typescript are my go-to languages. I am a great enjoyer of
       the project
-      <a href="https://vuejs.org/">Vue</a>.
+      <a href="https://vuejs.org/" class="link">Vue</a>.
     </p>
     <br />
     <p>
       This site is made with the amazing framework
-      <a href="https://nuxt.com/">Nuxt</a>.
+      <a href="https://nuxt.com/" class="link">Nuxt</a>.
     </p>
     <PostCard />
     <PostCard />

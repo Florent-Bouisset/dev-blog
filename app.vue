@@ -15,11 +15,11 @@
         class="text-grey-400 px-[20%] py-4 border-t border-grey-800 mt-16"
       >
         This site is built with
-        <a href="https://nuxt.com/" class="text-grey-400">Nuxt</a>, the
+        <a href="https://nuxt.com/" class="link text-grey-400">Nuxt</a>, the
         repository is available on
         <a
           href="https://github.com/Florent-Bouisset/dev-blog"
-          class="text-grey-400"
+          class="link text-grey-400"
           >Github.</a
         >
       </footer>

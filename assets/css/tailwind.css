@@ -28,7 +28,10 @@
   h1 {
     @apply text-3xl;
   }
-  a {
+}
+
+@layer components {
+  .link {
     @apply underline text-primary underline-offset-4;
   }
 }
