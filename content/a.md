@@ -1,5 +1,12 @@
-# My title
+---
+title: My title A Introduction
+---
 
-#### My subtitle
+Learn how to use @nuxt/content.
 
-Some content
+
+# My title A
+
+#### My subtitle A
+
+Some content A

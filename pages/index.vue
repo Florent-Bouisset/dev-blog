@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const contents = await useAsyncData("content", async () =>
+  queryContent().find()
+);
+</script>
 
 <template>
   <div class="w-full px-[20%] pt-8">
@@ -17,10 +21,11 @@
       This site is made with the amazing framework
       <a href="https://nuxt.com/" class="link">Nuxt</a>.
     </p>
-    <PostCard />
-    <PostCard />
-    <PostCard />
-    <PostCard />
-    <PostCard />
+    <PostCard
+      v-if="contents.data"
+      v-for="content in contents.data.value"
+      :content="content"
+      :key="content._id"
+    />
   </div>
 </template>
