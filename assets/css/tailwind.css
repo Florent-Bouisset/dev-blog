@@ -22,13 +22,13 @@
 
 @layer base {
   html {
-    @apply font-Lora text-white;
+    @apply font-Lora text-white bg-background;
   }
 
   h1 {
     @apply text-3xl;
   }
   a {
-    @apply underline text-primary;
+    @apply underline text-primary underline-offset-4;
   }
 }
