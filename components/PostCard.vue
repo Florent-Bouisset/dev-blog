@@ -4,13 +4,11 @@ import type { ParsedContent } from "@nuxt/content";
 const props = defineProps<{
   content: ParsedContent;
 }>();
-
-console.log("props", props.content);
 </script>
 
 <template>
-  <NuxtLink to="/a" class="no-underline">
-    <BaseCard class="mt-8">
+  <NuxtLink :to="content._path" class="no-underline">
+    <BaseCard class="mt-8 hover:bg-grey-800 transition-colors">
       <div class="flex gap-6">
         <NuxtImg src="https://vue3-fr.netlify.app/logo.png"></NuxtImg>
         <div class="flex flex-col">

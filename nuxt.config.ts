@@ -2,4 +2,13 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "@nuxt/content"],
+  content: {
+    experimental: {
+      search: {
+        indexed: true,
+        ignoredTags: [],
+        filterQuery: {},
+      },
+    },
+  },
 });

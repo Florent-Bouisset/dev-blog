@@ -6,7 +6,7 @@ const contents = await useAsyncData("content", async () =>
 
 <template>
   <div class="w-full px-[20%] pt-8">
-    <h1 class="text-primary pb-4">Welcome to my Dev log</h1>
+    <h1 class="text-primary pb-4">Welcome to my Dev blog</h1>
     <p>
       This is the place where I post my thoughts and experimentation about
       technology.
